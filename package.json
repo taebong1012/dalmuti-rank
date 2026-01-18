@@ -6,23 +6,27 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "idb": "^8.0.3",
     "next": "16.0.7",
+    "next-pwa": "^5.6.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "web-push": "^3.6.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.30",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
+    "prettier": "^3.8.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
